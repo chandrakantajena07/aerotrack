@@ -155,9 +155,9 @@
     "title": "Git repo initialized with a correct .gitignore",
     "acceptance": "git status is clean after the initial commit; node_modules and dist are not tracked",
     "component": "ship",
-    "status": "open",
+    "status": "done",
     "note": "",
-    "tickedAt": null
+    "tickedAt": "2026-10-15T11:27:42.957Z"
   },
   {
     "id": "P3.2",
@@ -165,9 +165,9 @@
     "title": "Public GitHub repo created and pushed",
     "acceptance": "gh repo view <owner>/aerotrack succeeds and shows the pushed main branch",
     "component": "ship",
-    "status": "open",
-    "note": "",
-    "tickedAt": null
+    "status": "done",
+    "note": "gh repo view confirms chandrakantajena07/aerotrack, public, default branch main, pushed",
+    "tickedAt": "2026-10-15T11:28:09.561Z"
   },
   {
     "id": "P4",
@@ -185,9 +185,9 @@
     "title": "Vercel build config correct for the static Vite app",
     "acceptance": "vercel build (or an equivalent local production build) completes without error",
     "component": "ship",
-    "status": "open",
+    "status": "done",
     "note": "",
-    "tickedAt": null
+    "tickedAt": "2026-10-15T11:28:36.105Z"
   },
   {
     "id": "P4.2",
@@ -195,8 +195,8 @@
     "title": "Production deployment live and verified",
     "acceptance": "the deployed Vercel URL returns 200, and opening it in a browser shows live aircraft on the map with zero console errors",
     "component": "ship",
-    "status": "open",
-    "note": "",
-    "tickedAt": null
+    "status": "done",
+    "note": "https://aerotrack-rust.vercel.app returns 200; headless browser walkthrough showed 963 live heading-rotated aircraft over Western Europe, zero console errors; /api/aircraft proxy confirmed live in prod",
+    "tickedAt": "2026-10-15T11:31:07.176Z"
   }
 ]
