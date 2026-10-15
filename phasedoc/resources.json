@@ -1,0 +1,20 @@
+{
+  "arc": "Aerotrack",
+  "repo": "D:\projects\aerotrack",
+  "docs": {
+    "plan": "D:\projects\aerotrack\phasedoc\PLAN.md",
+    "architecture": "D:\projects\aerotrack\phasedoc\ARCHITECTURE.md",
+    "mirror": "D:\projects\aerotrack\phasedoc\BUILDPLAN.md",
+    "progress": "D:\projects\aerotrack\phasedoc\PROGRESS.md",
+    "prd_source": "user request, this session (2026-10-15): track only aeroplanes worldwide, inspired by koala73/worldmonitor's visual style but original code, via phasedoc + betadoc"
+  },
+  "code": {
+    "app_root": "D:\projects\aerotrack",
+    "dev_command": "npm run dev",
+    "build_command": "npm run build"
+  },
+  "services": {
+    "dev_server": { "note": "started on demand via npm run dev, not PM2-persisted during active development" },
+    "cockpit": { "port": 7901, "pm2_name": "phasedoc-aerotrack" }
+  }
+}

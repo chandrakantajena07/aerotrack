@@ -1,0 +1,7 @@
+{
+  "P0": "Set up the empty workbench: the web app framework and a plain dark world map you can pan and zoom. No planes yet.",
+  "P1": "Connect to a free live-aircraft feed and draw every plane in view as an icon that points the way it's actually flying, with a details panel on click.",
+  "P2": "Finish the dark radar look, add callsign search and a live stats bar, then walk through the whole app by hand to prove it holds up.",
+  "P3": "Turn the project into a real git repo and push it to a new public GitHub repo.",
+  "P4": "Deploy the production build to Vercel and confirm the live URL actually shows moving aircraft."
+}
